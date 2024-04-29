@@ -2,9 +2,8 @@ import ClassRoom from "./0-classroom.js";
 
 function initializeRooms() {
   let res = [];
-  const sized = [19, 20, 34];
-
-  for (let i = 0; i < 3; i++) res.push(new ClassRoom(sized[i]));
-
+  rooms.push(new ClassRoom(19));
+  rooms.push(new ClassRoom(20));
+  rooms.push(new ClassRoom(34));
   return res;
 }
