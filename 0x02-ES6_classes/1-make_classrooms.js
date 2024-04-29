@@ -8,5 +8,3 @@ function initializeRooms() {
 
   return res;
 }
-
-console.log(initializeRooms());
